@@ -1,0 +1,170 @@
+body
+{
+    background-color: black;
+}
+nav
+{
+    display:flex;
+    justify-content:flex-end;
+}
+nav ul 
+{
+    background-color:black;
+    border-radius: 10px;
+    text-align: center;
+    list-style-type: none;
+    display: flex;
+}
+nav ul li button 
+{
+    height: 30px;
+    width: 90px;
+    border-radius: 10px;
+    border-width: 1px;
+    margin:10px;
+    background-color:skyblue
+}
+nav ul li button:hover
+{
+    background-color: rgb(183, 235, 255);
+}
+nav ul li button a 
+{
+    text-decoration: none;
+    color: black;
+}
+#home
+{
+    color:white;
+    padding: 80px;
+    display: inline-flex;
+}
+#name
+{
+   color: blueviolet;
+   font-size: xx-large;
+}
+#img img
+{
+    border-radius: 30%;
+    margin-left: 460px;
+    border-style:groove;
+    border-color: skyblue;
+    padding: 10px;
+
+}
+#about
+{
+    color: white;
+    height: auto;
+    width: 600px;
+    text-align: center;
+    margin-left: 500px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: purple;
+    padding: 20px;
+
+}
+
+#about:hover
+{
+    background-color:rgb(81, 0, 81);
+}
+
+#education li
+{
+    color: blueviolet;
+}
+#education
+{
+    color:skyblue;
+}
+#education ul li p
+{
+    color:white;
+}
+#skills
+{
+    color: white;
+    border-radius: 10px;
+    border-color: blueviolet;
+    border-style: solid;
+    display: inline-block;
+    margin: 20px;
+    padding: 20px;
+    margin-left: 150px;
+    width: 160px;
+}
+#skills:hover
+{
+    background-color: rgb(49, 7, 90);
+}
+#certificate
+{
+    display: inline-block;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: aqua;
+    margin: 20px;
+    padding: 20px;
+    color: white;
+    
+}
+#certificate:hover
+{
+    background-color:rgb(4, 91, 91);
+}
+#section3
+{
+    display: inline;
+}
+#section6
+{
+    background-color: rgb(33, 44, 49);
+    display: inline-block;
+    width: 700px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 200px;
+    color: white;
+}
+#section6 h3
+{
+    color: skyblue;
+}
+
+#section5
+{
+    color: white;
+    width: 80%;
+    margin: 10px;
+    padding: 10px;
+    margin-left: 10%;
+    border-radius: 20px;
+    padding-left: 30px;
+    border-style: solid;
+    border-color: green;
+}
+#project p
+{
+    width: 80%;
+    padding-left: 20px;
+}
+#project li
+{
+    font-size: x-large;
+    color: white;
+}
+#project p a
+{
+    text-decoration: none;
+    color: cornflowerblue;
+    padding-left: 20px;
+}
+#section5:hover
+{
+    
+    background-color: rgb(10, 56, 6);
+}
