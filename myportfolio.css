@@ -1,33 +1,41 @@
 body
 {
-    background-color: black;
+    background-color: rgb(33, 32, 36);
+    margin: 0;
 }
 nav
 {
-    display:flex;
-    justify-content:flex-end;
+    position: sticky;
+    top: 0;
 }
 nav ul 
 {
-    background-color:black;
-    border-radius: 10px;
-    text-align: center;
     list-style-type: none;
     display: flex;
+    justify-content: end;
+    
+    
 }
 nav ul li button 
 {
-    height: 30px;
-    width: 90px;
+    margin: 10px;
+    padding: 10px;
     border-radius: 10px;
-    border-width: 1px;
-    margin:10px;
-    background-color:skyblue
+    border: 2px transparent groove;
+    background-color: transparent;
+    color: white;
 }
 nav ul li button:hover
 {
-    background-color: rgb(183, 235, 255);
+    border-color: skyblue;
+    border-width: 2px;
 }
+
+
+
+
+
+/*
 nav ul li button a 
 {
     text-decoration: none;
@@ -53,7 +61,7 @@ nav ul li button a
     padding: 10px;
 
 }
-#about
+#About-Section
 {
     color: white;
     height: auto;
@@ -67,24 +75,24 @@ nav ul li button a
 
 }
 
-#about:hover
+#About-Section:hover
 {
     background-color:rgb(81, 0, 81);
 }
 
-#education li
+#Education-Section li
 {
     color: blueviolet;
 }
-#education
+#Education-Section
 {
     color:skyblue;
 }
-#education ul li p
+#Education-Section ul li p
 {
     color:white;
 }
-#skills
+#Skills-Section
 {
     color: white;
     border-radius: 10px;
@@ -96,11 +104,11 @@ nav ul li button a
     margin-left: 150px;
     width: 160px;
 }
-#skills:hover
+#Skills-Section:hover
 {
     background-color: rgb(49, 7, 90);
 }
-#certificate
+#Certificate-Section
 {
     display: inline-block;
     border-radius: 10px;
@@ -111,15 +119,15 @@ nav ul li button a
     color: white;
     
 }
-#certificate:hover
+#Certificate-Section:hover
 {
     background-color:rgb(4, 91, 91);
 }
-#section3
+#Skills-Section
 {
     display: inline;
 }
-#section6
+#Contact-Section
 {
     background-color: rgb(33, 44, 49);
     display: inline-block;
@@ -130,12 +138,12 @@ nav ul li button a
     margin-left: 200px;
     color: white;
 }
-#section6 h3
+#Contact-Section h3
 {
     color: skyblue;
 }
 
-#section5
+#Project-Section
 {
     color: white;
     width: 80%;
@@ -147,24 +155,31 @@ nav ul li button a
     border-style: solid;
     border-color: green;
 }
-#project p
+#Project-Section p
 {
     width: 80%;
     padding-left: 20px;
 }
-#project li
+#Project-Section li
 {
     font-size: x-large;
     color: white;
 }
-#project p a
+#Project-Section p a
 {
     text-decoration: none;
     color: cornflowerblue;
     padding-left: 20px;
 }
-#section5:hover
+#Project-Section:hover
 {
     
     background-color: rgb(10, 56, 6);
+} */
+
+#arrow-to-top
+{
+    position: sticky;
+    bottom: 0;
+    right: 0;
 }
